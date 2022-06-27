@@ -1,0 +1,94 @@
+footer {
+  font-size: 15px;
+  margin-left: 5pxpx;
+  margin-right: 5px;
+  margin-top: 30px;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  color: #feffd5;
+  background-image: linear-gradient(to right, black, #07071f);
+  padding: 30px;
+  grid-area: footer; }
+
+#galeria img {
+  width: 100%;
+  height: 350px;
+  margin: 10px; }
+
+#galeria img:hover {
+  border: 2px solid #282828; }
+
+* {
+  margin: 0px;
+  padding: 0px; }
+
+html {
+  height: 100%; }
+
+body {
+  background-image: url(../recursos/ve-lifestyle-bares-header-3.jpg);
+  background-size: 100% 100%;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  min-height: 100%; }
+
+h1 {
+  display: flex;
+  color: #ffeeaf;
+  background-image: linear-gradient(to right, black, #07071f);
+  font-size: 60px;
+  font-family: 'Lobster', cursive;
+  flex-wrap: wrap; }
+
+.navegation__edited {
+  text-decoration: line-through; }
+
+a {
+  text-decoration: none;
+  color: #9c8943;
+  font-family: "Homer Simpson UI"; }
+
+.section__caja {
+  justify-content: center;
+  background-image: url(../recursos/wood-background-presentation-png_253935.jpg); }
+
+.section__nombres {
+  font-family: 'Lobster', cursive;
+  color: white;
+  font-size: 40px;
+  padding: 10px;
+  margin: 20px;
+  justify-content: center;
+  background-image: linear-gradient(to right, black, #07071f); }
+
+.section__descripcion {
+  display: flex;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  padding: 20px;
+  font-size: 30px;
+  justify-items: right;
+  color: black;
+  justify-content: center; }
+
+.section__img {
+  display: flex;
+  width: 700px;
+  height: 500px;
+  justify-content: center; }
+
+.section__subrayado {
+  display: flex;
+  text-decoration: underline;
+  font-family: cursive;
+  font-size: 40px;
+  color: black;
+  justify-content: center; }
+
+.contacto__section {
+  margin: 10px;
+  padding: 5px; }
+
+.section__p {
+  color: white;
+  background-color: black;
+  margin: 20px;
+  font-family: "Homer Simpson UI"; }
